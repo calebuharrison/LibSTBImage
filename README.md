@@ -9,7 +9,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   lib_stb_image:
-    github: calebuharrison/lib_stb_image
+    github: calebuharrison/LibSTBImage
 ```
 
 Install your dependencies:
