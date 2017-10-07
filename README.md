@@ -17,7 +17,7 @@ Install your dependencies:
 shards install
 ```
 
-Run `make` from [YOUR PROJECT ROOT]/lib/lib_stb_image/src/lib_stb_image/etc/
+Run `make` from [YOUR PROJECT ROOT]/lib/lib_stb_image/src/lib_stb_image/ext/
 
 Done!
 
