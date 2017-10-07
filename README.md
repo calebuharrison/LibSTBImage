@@ -9,7 +9,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   lib_stb_image:
-    github: [calebuharrison]/lib_stb_image
+    github: calebuharrison/lib_stb_image
 ```
 
 Install your dependencies:
@@ -17,7 +17,11 @@ Install your dependencies:
 shards install
 ```
 
-Run `make` from [YOUR PROJECT ROOT]/lib/lib_stb_image/src/lib_stb_image/ext/
+Navigate to [your_project_root]/lib/lib_stb_image/src/lib_stb_image/ext/
+
+```sh
+make
+```
 
 Done!
 
