@@ -45,11 +45,11 @@ lib LibSTBImage
                               channels_in_file  : Pointer(Int32),
                               desired_channels  : Int32) : Pointer(STBIUS)
 
-  fun load_from_file_16 = stbi_load_16( f                 : Pointer(Void),
-                                        x                 : Pointer(Int32),
-                                        y                 : Pointer(Int32),
-                                        channels_in_file  : Pointer(Int32),
-                                        desired_channels  : Int32) : Pointer(STBIUS)
+  fun load_from_file_16 = stbi_load_from_file_16( f                 : Pointer(Void),
+                                                  x                 : Pointer(Int32),
+                                                  y                 : Pointer(Int32),
+                                                  channels_in_file  : Pointer(Int32),
+                                                  desired_channels  : Int32) : Pointer(STBIUS)
 
   fun loadf_from_memory = stbi_loadf_from_memory( buffer            : Pointer(STBIUC),
                                                   len               : Int32,
