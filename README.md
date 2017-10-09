@@ -17,14 +17,6 @@ Install your dependencies:
 shards install
 ```
 
-Navigate to [your_project_root]/lib/lib_stb_image/src/lib_stb_image/ext/
-
-```sh
-make
-```
-
-Done!
-
 ## Usage
 
 ```crystal

@@ -4,6 +4,9 @@ version: 0.1.0
 authors:
   - Caleb Uriah Harrison <calebuharrison@gmail.com>
 
+scripts:
+  postinstall: cd src/lib_stb_image/ext && make
+
 crystal: 0.23.1
 
 license: MIT
